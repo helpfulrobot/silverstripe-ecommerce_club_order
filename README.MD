@@ -1,24 +1,22 @@
 ###############################################
-E-commerce Availability Check
+Ecommerce Corporate Account
 Pre 0.1 proof of concept
 ###############################################
 
-This module allows you to create orders that need
-to be checked for availability.  For example - people
-book a cottage, but before it is confirmed, the shop
-owner needs to check that the cottage is available.
+Adds functionality to e-commerce that is typical
+for a corporate account (business to business sales):
 
-This means that people can place an order but with
-the caveat that the order needs to be confirmed.
+- purchase order number
+- assigning order items to people / departments
 
-Once they have placed the order, the shop admin can
-review the order and (a) cancel it (b) adjust it
-(c) accept it.
+In the future we can add more corporate account
+functionality to this module.
 
 
 Developers
 -----------------------------------------------
 Nicolaas Francken [at] sunnysideup.co.nz
+
 
 Requirements
 -----------------------------------------------
@@ -32,8 +30,6 @@ See http://code.google.com/p/silverstripe-ecommerce
 Demo
 -----------------------------------------------
 See http://www.silverstripe-ecommerce.com
-
-
 
 Installation Instructions
 -----------------------------------------------
